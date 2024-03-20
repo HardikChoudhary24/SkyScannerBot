@@ -12,19 +12,19 @@ Sky Scanner Bot is a Discord bot designed to help users track the cheapest fligh
 ## Usage
 
 1. Invite the Sky Scanner Bot to your Discord server.
-2. Use the `!track` command followed by the departure location, arrival location, and dates in the format `!track <departure> <arrival> <start_date> <end_date>`.
-   Example: `!track New York London 2024-04-01 2024-04-10`
+2. Use the `\start_tracking` command followed by the departure location, arrival location, and dates in the format `\start_tracking <departure> <arrival> <date-yymmdd>`.
+   Example: `\start_tracking Delhi Lucknow 240331`
 3. The bot will start tracking the flight prices and will notify you if a cheaper rate is found.
 4. Receive a response with a link to the Sky Scanner page for the cheaper flight option.
 
 ## Commands
 
-- `!track <departure> <arrival> <start_date> <end_date>` - Start tracking flight prices between specified locations and dates.
-- `!help` - Display help and available commands.
+- `\start_tracking <departure> <arrival> <date-yymmdd>` - Start tracking flight prices between specified locations on specified date.
+- `\get_price` - Display the price of the flight for which the tracker was initiated.
 
 ## Getting Started
 
-To get started with the Sky Scanner Bot, simply invite it to your Discord server and start using the `!track` command to set up flight price trackers. Stay updated with real-time notifications and find the best deals on flights hassle-free!
+To get started with the Sky Scanner Bot, simply invite it to your Discord server and start using the `\start_tracking` command to set up flight price trackers. Stay updated with real-time notifications and find the best deals on flights hassle-free!
 
 ## Disclaimer
 
